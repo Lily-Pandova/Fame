@@ -1,0 +1,369 @@
+body {
+    background-color:#1D0101;
+    font-family: arial;
+    margin-top:0 ;
+    padding: 0px;
+}
+header {
+    width: 70%;
+    padding: 0;
+    margin: 0;
+    background-position: 0 center;
+    margin-left: 180px;
+}
+a {
+    text-decoration: none;
+    color: #D7A78A;
+    font-size: 12px;
+    padding: 5px;
+}
+.container {
+    position: fixed;
+    padding: 10px;
+    background-color:#1D0101 ;
+    margin-top: 0;
+
+}
+.pull-left {
+    float: left;
+}
+.pull-right {
+    float:right;
+    font-size: 8px;
+    padding-left: 500px;
+}
+.pull-right:first-child {
+    padding-right: 20px;
+}
+.clear {
+    clear:both;
+}
+a.active {
+    background-color: #5F0000;
+    padding:10px;
+}
+ul.col-2 {
+    width:16.66%;
+}
+#first-page [class*="col-"] {
+    float:left;
+    padding: 15px;
+}
+.pull-left a:hover {
+    background-color: #5F0000;
+    padding: 10px;
+}
+.pull-right a:hover {
+    color:#8e0000;
+}
+.logo {
+    width: 100%;
+    padding-top: 30px;
+}
+#first-page a.zaglavie {
+    color:#D7A78A;
+    font-size: 20px;
+    list-style-type: none;
+    padding-left: 625px;
+}
+#first-page a.zaglavie:hover {
+    color:#A14416;
+}
+.separator {
+    margin-left: 180px;
+    position: relative;
+    top: -20px;
+}
+.separator-2 {
+    margin-left: 180px;
+}
+#first-page ul  {
+    list-style-image: url("../images/ListBullet.jpg");
+}
+#first-page ul {
+    list-style-type:none;
+    padding:0px;
+    margin:0px;
+}
+#first-page ul li {
+    background-repeat: no-repeat;
+    background-position: 0px center;
+    margin-left: 10px;
+}
+.list a{
+    font-size: 14px;
+    padding-right: 80px;
+
+}
+#first-page .col-2 ul.list {
+    margin-left: 180px;
+}
+.list-1 a, .list-2 a, .list-3 a{
+    font-size: 14px;
+    padding-right: 80px;
+
+}
+ul a:hover {
+    color:#A14416;
+}
+.pictures {
+    margin-left: 180px;
+    margin-top: 15px;
+}
+footer a:hover {
+    color:#A14416;
+}
+footer a{
+    font-size: 10px;
+    margin-left: 817px;
+}
+/* starts second page.....................................*/
+#second-page .background {
+    background-color:#FFF2DE ;
+    margin-left: 180px;
+    margin-right: 170px;
+
+}
+.zaglavie-2 {
+    font-size: 16px;
+    padding-top: 10px;
+    color:black;
+    margin-top: 0;
+}
+.picture {
+    margin: 10px;
+    float: left;
+}
+.podravniavane {
+    padding-left: 125px;
+}
+.h1 {
+    color:#7A6553;
+    font-size: 30px;
+}
+.nav a {
+    color:#7A6553;
+}
+.nav a:hover {
+    text-decoration: underline;
+}
+.separator-1 {
+    width: 683px;
+    height: auto;
+}
+p {
+    font-size: 12px;
+    color:#7A6553 ;
+    padding-left: 10px;
+}
+.ukrasa {
+    font-style: italic;
+    font-size: 16px;
+    padding-left: 10px;
+}
+.kupon {
+    width: 250px;
+    height:auto;
+    padding-left: 10px;
+
+}
+.kupon-2 {
+    width: 500px;
+    height: auto;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+span.nov-red {
+    font-size: 18px;
+    color:#5D4E35;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.logo-facebook {
+    width: 100px;
+    height: auto;
+    margin-top: 30px;
+}
+/* starts third page*....................*/
+#third-page .oformiane {
+    background-color:#FFF2DE ;
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-top: 5px;
+}
+.clearfix {
+    overflow: auto;
+}
+#third-page ul  {
+    list-style-image: url("../images/PathBullet.jpg");
+}
+#third-page ul {
+    list-style-type:none;
+    padding:0px;
+    margin:0px;
+}
+#third-page ul li {
+    background-repeat: no-repeat;
+    background-position: 0px center;
+    margin-left: 10px;
+}
+.list-11 a {
+    color:#5D4E35;
+    font-size: 18px;
+    line-height: 1.7em;
+}
+.list-11 a:hover {
+    color:#916834;
+}
+.list-12 a {
+    color: #5D4E35;
+    font-size: 18px;
+    line-height: 1.7em;
+}
+.list-13 a {
+    color: #5D4E35;
+    font-size: 18px;
+    line-height: 1.7em;
+}
+.col-1 {
+    width:8.33%;
+}
+.col-3 {
+    width: 25%;
+}
+#third-page [class*="col-"] {
+    float: left;
+    padding:15px;
+}
+.footer {
+    position: relative;
+    width: 80%;
+    height: 150px;
+    margin-left: 180px;
+}
+.pozicia {
+    position: absolute;
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+.separator-3 {
+    margin-left: 180px;
+}
+/* starts fourth-page.....................................*/
+#fourth-page .background {
+    background-color: #FFF2DE;
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-top: 5px;
+}
+.clearfix {
+    overflow: auto;
+}
+input[type="email"] {
+    width: 300px;
+    display:inline;
+    background-color: white;
+    padding-top: 4px;
+}
+input[type="text"] {
+    width: 250px;
+    display:inline;
+    background-color: white;
+    padding-top: 4px;
+}
+form {
+    display: inline;
+}
+.ime, .adres, .imeil {
+    color:#916834;
+    font-size: 14px;
+}
+.firstname {
+    width: 280px;
+    display: inline-block;
+    border: none;
+    padding-left: 0;
+}
+.abv {
+    width: 320px;
+    display: inline-block;
+    border: none;
+    padding-left: 50px;
+}
+.zapitvane {
+    color:#916834;
+    font-size: 14px;
+}
+.textarea {
+    width: 650px;
+    height: 80px;
+}
+#fourth-page .izprati {
+    text-decoration: underline;
+    margin-left: 590px;
+    color:#916834;
+    font-size: 14px;
+    border: none;
+    background-color: #FFF2DE;
+    cursor: pointer;
+}
+.map {
+    border-top:50px solid #4D6A79;
+    width: 650px;
+    margin-left: 280px;
+    margin-top: 70px;
+}
+.telefon {
+    color:#7A6553;
+    font-size: 12px;
+}
+#fourth-page a.embed {
+    text-align: center;
+    color: blue;
+    font-size: 12px;
+    text-decoration: underline;
+}
+.za-nas {
+    font-size: 30px;
+    margin-left: 280px;
+    color:#7A6553 ;
+}
+.view {
+    margin-left: 265px;
+}
+.facebook {
+    width: 200px;
+    margin-left: 450px;
+}
+/*starts fifth-page.......................*/
+#fifth-page .background {
+    background-color: #FFF2DE;
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-top: 5px;
+}
+.clearfix {
+    overflow: auto;
+}
+.dostavki {
+    color:#916834;
+    font-size: 12px;
+}
+.kvartali {
+    color:#7A6553;
+    font-size: 14px;
+}
+.utochnenie {
+    color: red;
+}
+.porachka {
+    color:#7A6553;
+    font-size: 20px;
+}
+.CocaCola {
+    width: 30px;
+}
+.otstapka {
+    width: 80px;
+    margin-left: 20px;
+}
